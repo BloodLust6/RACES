@@ -1,0 +1,91 @@
+name: races
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+#----------PACKAGES----------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.2+1
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.2
+  connectivity_plus: ^5.0.1
+  flutter_native_splash: ^2.3.6
+  smooth_page_indicator: ^1.1.0
+  image_picker: ^1.0.4
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  timezone: ^0.9.2
+  
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  #Product Specific
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+
+  #Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.3
+  google_sign_in: ^6.1.6
+  firebase_storage: ^11.5.5
+  cached_network_image: ^3.3.0
+  firebase_app_check: ^0.2.1+8
+
+#----------PACKAGES END----------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+  uses-material-design: true
+
+#----------LOCAL ASSETS----------#
+  assets:
+    - assets/icons/
+    - assets/images/banners/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/logos/
+  
+#----------LOCAL FONTS----------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800

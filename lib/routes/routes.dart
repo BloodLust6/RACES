@@ -1,0 +1,39 @@
+class SRoutes {
+  static const String home = '/home';
+  static const String information = '/information';
+  static const String infonurse = '/infonurse';
+  static const String chgname = '/chgname';
+  static const String chgusername = '/chgusername';
+  static const String chgphoneno = '/chgphoneno';
+  static const String chggender = '/chggender';
+  static const String chgdob = '/chgdob';
+  static const String chgnameN = '/chgnameN';
+  static const String chgusernameN = '/chgusernameN';
+  static const String chgphonenoN = '/chgphonenoN';
+  static const String chggenderN = '/chggenderN';
+  static const String chgdobN = '/chgdobN';
+  static const String chgnameD = '/chgnameD';
+  static const String chgusernameD = '/chgusernameD';
+  static const String chgphonenoD = '/chgphonenoD';
+  static const String chggenderD = '/chggenderD';
+  static const String chgdobD = '/chgdobD';
+  static const String crtinfo = '/crtinfo';
+  static const String navmenu = '/navmenu';
+  static const String navnurse = '/navnurse';
+  static const String navdoctor = '/navdoctor';
+  static const String signup = '/signup';
+  static const String frgetpass = '/frgetpass';
+  static const String reauthlogin = '/reauthlogin';
+  static const String login = '/login';
+  static const String dependent = '/dependent';
+  static const String crtdpndnt = '/crtdpndnt';
+  static const String medication = '/medication';
+  static const String crtmedic = '/crtmedic';
+  static const String medicnurse = '/medicnurse';
+  static const String medicdoctor = '/medicdoctor';
+  static const String appointment = '/appointment';
+  static const String crtappntmnt = '/crtappntmnt';
+  static const String appntmntnurse = '/appntmntnurse';
+  static const String appntmntdoctor = '/appntmntdoctor';
+  // Add more route names as needed
+}
